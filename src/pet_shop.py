@@ -77,3 +77,5 @@ def sell_pet_to_customer(petshop, pet, customer):
         add_or_remove_cash(petshop, pet["price"])
         increase_pets_sold(petshop, 1)
         add_pet_to_customer(customer, pet)
+    else:
+        return None
